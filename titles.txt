@@ -1,9 +1,13 @@
-Refactoring
-Continuous Delivery
-The Pragmatic Programmer
-The Clean Coder
-Accelerate
-Creative Confidence
-Influential Power
+"Refactoring",reading
+"Continuous Delivery",reading
 
-Modern Chess Openings
+"The Pragmatic Programmer",read
+"The Clean Coder",read
+"Hands-on Machine Learning with Sci-kit Learn, Keras and Tensorflow",reading
+"Fluent Python",reading
+
+"Accelerate",read
+"Creative Confidence",read
+"Influential Power",read
+
+"Modern Chess Openings",reading
