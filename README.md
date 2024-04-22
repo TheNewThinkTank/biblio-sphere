@@ -18,4 +18,8 @@ cd my-svelte-project
 npm i
 
 npm run dev
+
+# compile and run index.ts
+tsc index.ts
+node index.js
 ```
