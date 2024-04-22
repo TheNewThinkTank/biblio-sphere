@@ -1,0 +1,22 @@
+{
+  "name": "biblio-sphere",
+  "version": "1.0.0",
+  "description": "digital world of books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheNewThinkTank/biblio-sphere.git"
+  },
+  "author": "Gustav Rasmussen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheNewThinkTank/biblio-sphere/issues"
+  },
+  "homepage": "https://github.com/TheNewThinkTank/biblio-sphere#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
