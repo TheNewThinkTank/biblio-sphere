@@ -1,4 +1,5 @@
-![CI](https://github.com/TheNewThinkTank/biblio-sphere/actions/workflows/wf.yml/badge.svg)
+![CI](https://github.com/TheNewThinkTank/biblio-sphere/actions/workflows/typescript-wf.yml/badge.svg)
+
 # biblio-sphere
 
 digital world of books
