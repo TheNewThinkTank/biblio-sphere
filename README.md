@@ -25,3 +25,9 @@ npm run dev
 tsc index.ts
 node index.js
 ```
+
+# TODOs
+
+Backend:
+- [ ] [Goodreads API](https://www.goodreads.com/api)
+- [ ] RAG: [medium](https://medium.com/@pankaj_pandey/unleash-the-power-of-rag-in-python-a-simple-guide-6f59590a82c3) or faiss model
