@@ -14,6 +14,7 @@ digital world of books
 npm init
 npm i lodash
 npm i -g degit
+npm i --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
 npx degit sveltejs/template my-svelte-app
 cd my-svelte-project

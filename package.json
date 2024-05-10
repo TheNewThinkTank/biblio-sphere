@@ -18,5 +18,9 @@
   "homepage": "https://github.com/TheNewThinkTank/biblio-sphere#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0"
   }
 }

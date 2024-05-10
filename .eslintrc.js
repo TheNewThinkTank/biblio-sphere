@@ -1,10 +1,11 @@
 module.exports = {
-    "env": {
+    env: {
         "browser": true,
         "es2021": true
     },
-    "extends": "standard-with-typescript",
-    "overrides": [
+	plugins: ['@typescript-eslint'],
+    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],  // "standard-with-typescript",
+    overrides: [
         {
             "env": {
                 "node": true
@@ -17,11 +18,12 @@ module.exports = {
             }
         }
     ],
-    "parserOptions": {
+	parser: '@typescript-eslint/parser',
+    parserOptions: {
         "ecmaVersion": "latest",
         "sourceType": "module",
         project: "tsconfig.json",
     },
-    "rules": {
+    rules: {
     }
 }
