@@ -32,5 +32,27 @@ node index.js
 Backend:
 
 - [ ] Set up Jekyll for GH pages
+
+```BASH
+brew install ruby
+brew info ruby
+
+vim ~/.zshrc
+
+echo $PATH
+
+gem update --system 3.5.10
+gem install jekyll bundler
+
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"' >> ~/.zshrc
+
+source  ~/.zshrc
+
+ruby -v
+gem -v
+jekyll -v
+```
+
 - [ ] Find a good online book DB and API (Goodreads API is discontinued)
 - [ ] Suggest next book to read, using RAG: [medium](https://medium.com/@pankaj_pandey/unleash-the-power-of-rag-in-python-a-simple-guide-6f59590a82c3) or faiss model
