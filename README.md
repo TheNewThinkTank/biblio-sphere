@@ -29,9 +29,9 @@ node index.js
 
 # TODOs
 
-Backend:
+- [x] Set up Jekyll for GH pages
 
-- [ ] Set up Jekyll for GH pages
+<img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-jekyll-a-simple-blog-aware-static-site-generator-for-personal-project-logo-shadow-tal-revivo.png" alt="external-jekyll-a-simple-blog-aware-static-site-generator-for-personal-project-logo-shadow-tal-revivo"/>
 
 ```BASH
 brew install ruby
