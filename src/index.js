@@ -1,3 +1,4 @@
+"use strict";
 var myBook = {
     id: 1,
     title: "To Kill a Mockingbird",
