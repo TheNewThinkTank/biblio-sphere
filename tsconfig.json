@@ -2,4 +2,5 @@
     "compilerOptions": {
         "strict": true
     },
+	"include": ["src/index.js"]
 }
