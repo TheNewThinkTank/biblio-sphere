@@ -52,6 +52,12 @@ source  ~/.zshrc
 ruby -v
 gem -v
 jekyll -v
+
+# Serve the docs:
+bundle exec jekyll serve
+
+# install plugins:
+bundle update
 ```
 
 - [ ] Find a good online book DB and API (Goodreads API is discontinued)
