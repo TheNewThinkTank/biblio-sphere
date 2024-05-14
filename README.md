@@ -4,7 +4,7 @@
 
 digital world of books
 
-[Trunk](https://docs.trunk.io/check/usage) is used for code qualification
+[Trunk](https://docs.trunk.io/check/usage) is used for code qualification: [Trunk check](https://app.trunk.io/TheNewThinkTank/TheNewThinkTank/biblio-sphere/check)
 
 [svelte setup](https://www.chrisjmendez.com/2022/03/28/how-to-install-svelte-on-macos-using-npm/)
 
