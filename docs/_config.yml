@@ -1,5 +1,5 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "biblio-sphere" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 remote_theme: pages-themes/modernist@v0.2.0
 
