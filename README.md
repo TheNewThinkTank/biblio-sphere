@@ -4,61 +4,19 @@
 
 digital world of books
 
-## useful resources
+[Trunk](https://docs.trunk.io/check/usage) is used for code qualification
 
 [svelte setup](https://www.chrisjmendez.com/2022/03/28/how-to-install-svelte-on-macos-using-npm/)
 
-## local setup
+[npm setup](guides/npm_setup.md)
 
-```BASH
-npm init
-npm i lodash
-npm i -g degit
-npm i --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+[jekyll setup](guides/jekyll_setup.md)
 
-npx degit sveltejs/template my-svelte-app
-cd my-svelte-project
-npm i
+### TODOs
 
-npm run dev
-
-# compile and run index.ts
-tsc index.ts
-node index.js
-```
-
-# TODOs
-
-- [x] Set up Jekyll for GH pages
+-   [ ] Set up Jekyll for GH pages
 
 <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-jekyll-a-simple-blog-aware-static-site-generator-for-personal-project-logo-shadow-tal-revivo.png" alt="external-jekyll-a-simple-blog-aware-static-site-generator-for-personal-project-logo-shadow-tal-revivo"/>
 
-```BASH
-brew install ruby
-brew info ruby
-
-vim ~/.zshrc
-
-echo $PATH
-
-gem update --system 3.5.10
-gem install jekyll bundler
-
-echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
-echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"' >> ~/.zshrc
-
-source  ~/.zshrc
-
-ruby -v
-gem -v
-jekyll -v
-
-# Serve the docs:
-bundle exec jekyll serve
-
-# install plugins:
-bundle update
-```
-
-- [ ] Find a good online book DB and API (Goodreads API is discontinued)
-- [ ] Suggest next book to read, using RAG: [medium](https://medium.com/@pankaj_pandey/unleash-the-power-of-rag-in-python-a-simple-guide-6f59590a82c3) or faiss model
+-   [ ] Find a good online book DB and API (Goodreads API is discontinued)
+-   [ ] Suggest next book to read, using RAG: [medium](https://medium.com/@pankaj_pandey/unleash-the-power-of-rag-in-python-a-simple-guide-6f59590a82c3) or faiss model
