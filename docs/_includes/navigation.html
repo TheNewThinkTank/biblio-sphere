@@ -1,7 +1,7 @@
 <nav>
 	{% for item in site.data.navigation %}
 	<a
-		href="{{ site.baseurl }}/{{ item.link }}"
+		href="{{ item.link }}"
 		{%
 		if
 		page.url=""
