@@ -1,8 +1,3 @@
----
-title: Books
-layout: default
----
+# Index
 
-## Books!
-
-Digital world of books
+books
