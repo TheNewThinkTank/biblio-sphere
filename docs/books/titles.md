@@ -2,16 +2,16 @@
 
 ## Have read
 
-- The Pragmatic Programmer,read
-- The Clean Coder,read
-- Accelerate,read
-- Creative Confidence,read
-- Influential Power,read
+- The Pragmatic Programmer
+- The Clean Coder
+- Accelerate
+- Creative Confidence
+- Influential Power
 
 ## Reading
 
-- Refactoring,reading
-- Continuous Delivery,reading
-- Hands-on Machine Learning with Sci-kit Learn, Keras and Tensorflow,reading
-- Fluent Python,reading
-- Modern Chess Openings,reading
+- Refactoring
+- Continuous Delivery
+- Hands-on Machine Learning with Sci-kit Learn, Keras and Tensorflow
+- Fluent Python
+- Modern Chess Openings
