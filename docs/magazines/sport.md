@@ -2,6 +2,4 @@
 
 ## Black Belt
 
-## National Geographic
-
-## Computerworld
+## Runners world
