@@ -20,5 +20,3 @@
 | Hands-on Machine Learning with Sci-kit Learn, Keras and Tensorflow | | IT |
 | Fluent Python | | IT |
 | Modern Chess Openings | | Games |
-
-
