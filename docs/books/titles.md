@@ -2,16 +2,23 @@
 
 ## Have read
 
-- The Pragmatic Programmer
-- The Clean Coder
-- Accelerate
-- Creative Confidence
-- Influential Power
+| Title                    | Author              | Genre |
+| ------------------------ | ------------------- | ----- |
+| Træk vejret              | Stig Åval Severinsen| Sport |
+| The Pragmatic Programmer | | IT |
+| The Clean Coder          | | IT |
+| Accelerate | | IT |
+| Creative Confidence | | IT |
+| Influential Power | | IT |
 
 ## Reading
 
-- Refactoring
-- Continuous Delivery
-- Hands-on Machine Learning with Sci-kit Learn, Keras and Tensorflow
-- Fluent Python
-- Modern Chess Openings
+| Title                    | Author              | Genre |
+| ------------------------ | ------------------- | ----- |
+| Refactoring              | | IT |
+| Continuous Delivery      | | IT |
+| Hands-on Machine Learning with Sci-kit Learn, Keras and Tensorflow | | IT |
+| Fluent Python | | IT |
+| Modern Chess Openings | | Games |
+
+
