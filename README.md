@@ -4,7 +4,7 @@
 
 # biblio-sphere
 
-digital world of books
+Digital world of books
 
 [Trunk](https://docs.trunk.io/check/usage) is used for code qualification: [Trunk check](https://app.trunk.io/TheNewThinkTank/TheNewThinkTank/biblio-sphere/check)
 
@@ -12,7 +12,7 @@ digital world of books
 
 [npm setup](guides/npm_setup.md)
 
-[jekyll setup](guides/jekyll_setup.md)
+<!-- [jekyll setup](guides/jekyll_setup.md) -->
 
 ### TODOs
 
