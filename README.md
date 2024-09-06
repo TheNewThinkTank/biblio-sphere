@@ -6,6 +6,10 @@
 
 Digital world of books
 
+<p align="center">
+  <img src="docs/img/biblio-sphere-logo.png" width="400"/>
+</p>
+
 [Trunk](https://docs.trunk.io/check/usage) is used for code qualification: [Trunk check](https://app.trunk.io/TheNewThinkTank/TheNewThinkTank/biblio-sphere/check)
 
 [svelte setup](https://www.chrisjmendez.com/2022/03/28/how-to-install-svelte-on-macos-using-npm/)
