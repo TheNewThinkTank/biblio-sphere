@@ -4,3 +4,4 @@ Gemfile.lock
 .jekyll-cache
 .sass-cache
 __pycache__
+local_assets/

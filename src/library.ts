@@ -1,8 +1,8 @@
 
-import * as fs from 'fs';
-import * as path from 'path';
+import { loadBooksFromDirectory } from './bookLoader';
+// import { loadBooksFromGoogleDrive } from './googleDriveLoader';
 
-interface Book {
+export interface Book {
     title: string;
     author: string;
     year: number;
@@ -82,25 +82,18 @@ class Library {
 
 }
 
-function loadBooksFromDirectory(directory: string): Book[] {
-    const absoluteDirectory = path.resolve(__dirname, directory);
-    const files = fs.readdirSync(absoluteDirectory);
-    const books: Book[] = [];
-
-    files.forEach(file => {
-        if (file.endsWith('.json')) {
-            const filePath = path.join(absoluteDirectory, file);
-            const fileContents = fs.readFileSync(filePath, 'utf-8');
-            books.push(...JSON.parse(fileContents));
-        }
-    });
-
-    return books;
-}
-
 // Example usage
 const myLibrary = new Library();
+
+
 const books = loadBooksFromDirectory('../books'); // Directory containing JSON files
+
+// loadBooksFromGoogleDrive().then(books => {
+//     books.forEach(book => myLibrary.addBook(book));
+//     myLibrary.printBooks();
+// });
+
+
 
 books.forEach(book => myLibrary.addBook(book));
 myLibrary.listBooks();
