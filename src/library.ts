@@ -1,6 +1,6 @@
 
-import { loadBooksFromDirectory } from './bookLoader';
-// import { loadBooksFromGoogleDrive } from './googleDriveLoader';
+// import { loadBooksFromDirectory } from './bookLoader';
+import { loadBooksFromGoogleDrive } from './googleDriveLoader';
 
 export interface Book {
     title: string;
@@ -86,17 +86,14 @@ class Library {
 const myLibrary = new Library();
 
 
-const books = loadBooksFromDirectory('../books'); // Directory containing JSON files
+// const books = loadBooksFromDirectory('../books'); // Directory containing JSON files
+// books.forEach(book => myLibrary.addBook(book));
+// myLibrary.listBooks();
 
-// loadBooksFromGoogleDrive().then(books => {
-//     books.forEach(book => myLibrary.addBook(book));
-//     myLibrary.printBooks();
-// });
-
-
-
-books.forEach(book => myLibrary.addBook(book));
-myLibrary.listBooks();
+loadBooksFromGoogleDrive().then(books => {
+    books.forEach(book => myLibrary.addBook(book));
+    myLibrary.listBooks();
+});
 
 // myLibrary.sortBooksBy('author'); // Sorts by author name
 // myLibrary.listBooks();
