@@ -1,0 +1,118 @@
+[
+    {
+        "title": "Robinson Crusoe",
+        "author": "Defoe, Daniel"
+    },
+	{
+        "title": "Father Brown Stories",
+        "author": "Chesterton, G. K."
+    },
+	{
+		"title": "The Happy Prince and Other Stories",
+		"author": "Wilde, Oscar"
+	},
+	{
+        "title": "The Jungle Book & The Second Jungle Book",
+        "author": "Rudyard Kipling"
+    },
+	{
+        "title": "King Solomon's Mines",
+        "author": "H.Rider Haggard"
+    },
+	{
+        "title": "The Double",
+        "author": "José Saramago"
+    },
+	{
+        "title": "The Cave",
+        "author": "José Saramago"
+    },
+	{
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Lewis Carroll"
+    },
+	{
+        "title": "Three men in a boat",
+        "author": "Jerome K. Jerome"
+    },
+	{
+        "title": "Treasure Island",
+        "author": "Stevenson, Robert Louis"
+    },
+	{
+        "title": "The Prophet",
+        "author": "Kahlil Gibran"
+    },
+	{
+        "title": "The little prince",
+        "author": "Saint-Exupéry, Antoine de"
+    },
+	{
+        "title": "The alchemist",
+        "author": "Paulo Coelho"
+    },
+	{
+        "title": "Dr Jekyll and Mr Hyde",
+        "author": "Stevenson, Robert Louis"
+    },
+	{
+        "title": "The Art of Happiness",
+        "author": "Dalai Lama"
+    },
+	{
+        "title": "Tales of the Jazz Age",
+        "author": "F. Scott Fitzgerald"
+    },
+	{
+        "title": "A Christmas Carol",
+        "author": "Charles Dickens"
+    },
+	{
+        "title": "Theory and Reality",
+        "author": "Peter Godfrey-Smith"
+    },
+	{
+        "title": "The Arabian Nights",
+        "author": "Sir Richard Burton"
+    },
+	{
+        "title": "The Wind-Up Bird Chronicle",
+        "author": "Haruki Murakami"
+    },
+	{
+        "title": "First Pass Under Heaven",
+        "author": "Nathan Hoturoa Gray"
+    },
+	{
+        "title": "Long Walk to Freedom",
+        "author": "Nelson Mandela"
+    },
+	{
+        "title": "Master & Commander",
+        "author": "Patrick O'Brian"
+    },
+	{
+        "title": "The Prisoner of Heaven",
+        "author": "Carlos Ruiz Zafón"
+    },
+	{
+        "title": "The Name of the Rose",
+        "author": "Umberto Eco"
+    },
+	{
+        "title": "A very short history of the world",
+        "author": "Geoffrey Blainey"
+    },
+	{
+        "title": "The boy who harnessed the wind",
+        "author": "William Kamkwamba and Bryan Mealer"
+    },
+	{
+        "title": "Physics of the Impossible",
+        "author": "Michio Kaku"
+    },
+	{
+        "title": "A Short History of Nearly Everything",
+        "author": "Bill Bryson"
+    }
+]
