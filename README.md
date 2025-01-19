@@ -7,7 +7,7 @@
 Digital world of books
 
 <p align="center">
-  <img src="docs/img/biblio-sphere-logo.png" width="400"/>
+  <img src="https://lh3.googleusercontent.com/d/1Jdyu94wuNAbiKldtgwWPJYqGSeLeGV5i" width="400"/>
 </p>
 
 [Trunk](https://docs.trunk.io/check/usage) is used for code qualification: [Trunk check](https://app.trunk.io/TheNewThinkTank/TheNewThinkTank/biblio-sphere/check)
