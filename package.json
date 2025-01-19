@@ -1,6 +1,6 @@
 {
   "name": "biblio-sphere",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "digital world of books",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@types/node": "^22.10.3",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
-    "@typescript-eslint/parser": "^7.8.0"
+    "@typescript-eslint/parser": "^7.8.0",
+    "typescript": "^5.7.3"
   }
 }

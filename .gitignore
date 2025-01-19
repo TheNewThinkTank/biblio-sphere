@@ -1,7 +1,15 @@
-node_modules
+
 .DS_Store
+
 Gemfile.lock
 .jekyll-cache
 .sass-cache
+
 __pycache__
+
 local_assets/
+.venv
+.env
+
+node_modules
+dist/
