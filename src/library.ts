@@ -24,7 +24,7 @@ const deweyCategories: { [key: string]: string } = {
     "900": "History and Geography"
 };
 
-function getDeweyCategory(subject: string): string {
+export function getDeweyCategory(subject: string): string {
     const subjectToDewey: { [key: string]: string } = {
         "philosophy": "100",
         "psychology": "100",
@@ -46,16 +46,20 @@ function getDeweyCategory(subject: string): string {
     return categoryKey ? subjectToDewey[categoryKey] : "000";
 }
 
-class Library {
+export class Library {
     private books: Book[] = [];
 
     addBook(book: Book): void {
         book.deweyDecimal = getDeweyCategory(book.subject);
         this.books.push(book);
-        console.log(`Book added: ${book.title} (${book.deweyDecimal})`);
+        // console.log(`Book added: ${book.title} (${book.deweyDecimal})`);
     }
 
-    listBooks(): void {
+    getBooks(): Book[] {
+        return this.books;
+    }
+
+    printBooks(): void {
         console.log("Library Catalog:");
         this.books.forEach(book => {
             const category = deweyCategories[book.deweyDecimal?.slice(0, 3) || "000"];
@@ -90,10 +94,10 @@ const myLibrary = new Library();
 // books.forEach(book => myLibrary.addBook(book));
 // myLibrary.listBooks();
 
-loadBooksFromGoogleDrive().then(books => {
-    books.forEach(book => myLibrary.addBook(book));
-    myLibrary.listBooks();
-});
+// loadBooksFromGoogleDrive().then(books => {
+//     books.forEach(book => myLibrary.addBook(book));
+//     myLibrary.printBooks();
+// });
 
 // myLibrary.sortBooksBy('author'); // Sorts by author name
 // myLibrary.listBooks();
