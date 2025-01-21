@@ -20,7 +20,5 @@ jobs:
             - name: Run tests
               run: npm test
 
-            # setup eslint config file locally first:
-            # npm init @eslint/config
-        #   - name: Run ESLint
-        #     run: npx eslint src/
+            - name: Run ESLint
+              run: npx eslint src/
