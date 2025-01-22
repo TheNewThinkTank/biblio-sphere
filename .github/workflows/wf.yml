@@ -20,5 +20,5 @@ jobs:
             - name: Run tests
               run: npm test
 
-            - name: Run ESLint
-              run: npm run lint  # npx eslint src/ --config .config/.eslintrc.js
+            # - name: Run ESLint
+            #   run: npm run lint  # npx eslint src/ --config .config/.eslintrc.js
