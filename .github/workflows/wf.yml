@@ -2,23 +2,41 @@
 name: CI
 
 on:
-    push:
-        branches: main
-    workflow_dispatch:
+  push:
+    branches: main
+  workflow_dispatch:
 
 jobs:
-    qualify_code:
-        runs-on: ubuntu-latest
+  qualify_code:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Check out code
-              uses: actions/checkout@v4
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
 
-            - name: npm ci
-              run: npm ci
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "23"
 
-            - name: Run tests
-              run: npm test
+      - name: npm ci
+        run: npm ci
 
-            # - name: Run ESLint
-            #   run: npm run lint  # npx eslint src/ --config .config/.eslintrc.js
+      - name: Run tests with coverage
+        run: npx jest --coverage --config .config/jest.config.js  # npm test
+
+      # - name: Run tests with coverage
+      #   run: |
+      #     # npm install nyc --save-dev
+      #     # npx nyc npm test
+      #     npx jest --coverage
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: TheNewThinkTank/biblio-sphere
+          fail_ci_if_error: true
+
+      # - name: Run ESLint
+      #   run: npm run lint  # npx eslint src/ --config .config/.eslintrc.js

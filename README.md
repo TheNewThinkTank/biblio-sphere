@@ -1,6 +1,7 @@
 ![commit activity](https://img.shields.io/github/commit-activity/m/TheNewThinkTank/biblio-sphere)
 [![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/biblio-sphere?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/biblio-sphere/archive/refs/heads/main.zip)
 ![CI](https://github.com/TheNewThinkTank/biblio-sphere/actions/workflows/wf.yml/badge.svg)
+[![codecov](https://codecov.io/gh/TheNewThinkTank/biblio-sphere/graph/badge.svg?token=2NMELfVQqT)](https://codecov.io/gh/TheNewThinkTank/biblio-sphere)
 
 # biblio-sphere
 
